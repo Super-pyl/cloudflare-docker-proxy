@@ -17,7 +17,7 @@ jobs:
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-          accountId: ${{secrets.CF_ACCOUNT_ID}}
+          apiToken: XODpYDcIyVtr2QNABoAQVxo-_FHT6jDvKddWoP4o
+          accountId: 7ad006260c1ebc002135b9e031beba98
           command: deploy --env production --minify src/index.js
           environment: production
